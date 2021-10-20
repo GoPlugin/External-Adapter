@@ -1,0 +1,26 @@
+{
+  "name": "@goplugin/external-adapter",
+  "version": "1.0.1",
+  "description": "External adapter for plugin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@google-cloud/logging-winston": "^3.0.6",
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "uuid": "^8.3.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  },  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "author": "Goplugin",
+  "license": "ISC"
+}
